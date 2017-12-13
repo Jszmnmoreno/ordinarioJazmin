@@ -116,7 +116,7 @@ class Personas {
 		$object->id = $id;
 		$object->nombre = $nombre;
 		$object->direccion = $direccion;
-		$object->fechaCreacion = $fechaCreacion;
+		
 		return $object;
 	}
 	
