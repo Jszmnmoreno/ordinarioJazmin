@@ -5,7 +5,7 @@ class Personas {
 	public $id;
 	public $nombre;
 	public $direccion;
-	public $fechaCreacion;
+	
 	
 	public static function getBySql($sql) {
 		
