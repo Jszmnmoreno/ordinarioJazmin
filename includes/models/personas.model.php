@@ -201,7 +201,8 @@ class Personas {
 		$affected_rows = FALSE;
 	
 		// Build database query
-		$sql = "delete datos where id = ?";
+		$sql = "delete datos where id = '$id'";
+		result = mysql_query($query);
 		
 		// Open database connection
 		$database = new Database();
